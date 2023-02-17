@@ -1,0 +1,79 @@
+.App{
+	display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%;
+}
+.progress-bar{
+	position: relative;
+	overflow: hidden;
+	width: 350px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: #eeecec;
+}
+.progress{
+	font-weight: 600;
+	font-family:'Franklin Gothic Medium';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: #ffffff;
+	text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+}
+
+.run-btn{
+	display: block;
+	margin: 5rem auto;
+	border: none;
+	border-radius: 3px;     
+	outline: none;
+	width: 100px;
+	height: 40px;
+	background-color: #4f5050;
+	transition: box-shadow 0.5s;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.run-btn:hover{
+  background-color: #d6d325;
+	transition: box-shadow 1s;
+	color: #fff;
+}
+
+.container{
+  padding: 2rem;
+  border: 1px solid #1f1f1f;
+  border-radius: 10px;
+  background-color: #c69bff;
+}
+
+.otp{
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.btn{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: royalblue;
+  padding: 10px;
+  border: none;
+  color: #fff;
+}
+
+.value{
+  font-size: 30px;
+}
+
+
